@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snak</title>
+        <style>
+            /* no need extra file for such a small css */
+            body{
+                margin: 56px 16px 16px 16px;
+                background-color: lightblue;
+                display: flex;
+                flex-direction: column;
+                font-family: Arial;
+                font-weight: 700;
+                color: #fefefe;
+                text-align: center;
+                user-select: none;
+            }
+
+            #game-display{
+                border-radius: 4px;
+                padding: 2px;
+                border: 1px solid red;
+                background-color: #212121;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="game-display" width="300" height="300"></canvas>
+        <p>to refresh the game please press F5 or refresh the page</p>
+        <script src="js/point.js"></script>
+        <script src="js/snake.js"></script>
+        <script src="js/engin.js"></script>
+    </body>
+</html>
+
